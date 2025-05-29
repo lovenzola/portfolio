@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body, html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background: no-repeat, center, center,url("Images/IMG_1517.JPG");
+}
+.title{
+    font-size: 18px;
+    font-weight: 800;
+    color: whitesmoke;
+}
+.title:hover{
+    text-transform: uppercase;
+    color: rgba(211, 211, 115,.7);
+
+}
+.header nav {
+    position: fixed;
+    margin-left: 50px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.header nav a {
+    margin: 50px;
+    padding: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 900;
+    margin-left: 50px;
+    text-align: center;
+}
+.header nav a:hover {
+    text-decoration: underline;
+    color: rgba(130, 130, 80, .7);
+}
+.header nav a.active {
+    text-decoration: underline;
+    color: beige;
+}
+.presentation{
+    display: flex;
+    margin: 0, auto;
+}
+.presentation img{
+    height: 350px;
+    width: 300px;
+    margin-left: 310px;
+    margin-top: 75px;
+}
+.presentation p {
+    margin-top: 200px;
+    color: whitesmoke;
+    margin-right: 20px;
+    padding: 20px;
+}
+.presentation p:hover{
+    color: rgba(158, 158, 51, .7);
+}
+span{
+    font-style: italic;
+}
